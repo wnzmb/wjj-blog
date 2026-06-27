@@ -7,13 +7,12 @@ theme = 'PaperMod'
   author = 'WJJ'
   description = 'Data Science & Development'
   defaultTheme = 'dark'
+  mainSections = ["posts"]
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  ShowToc = true
-  TocOpen = true
 
   [[params.socialIcons]]
     name = 'github'

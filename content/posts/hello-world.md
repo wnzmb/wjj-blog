@@ -1,5 +1,5 @@
 +++
-date = '2026-06-28'
+date = '2026-06-28T05:49:43+08:00'
 draft = false
 title = 'Hello World'
 tags = ['博客', '开始']
@@ -15,9 +15,9 @@ tags = ['博客', '开始']
 
 ## 技术栈
 
-- **Hugo** - 静态网站生成器
-- **PaperMod** - 简洁主题
-- **Cloudflare Pages** - 免费托管
+- Hugo - 静态网站生成器
+- PaperMod - 简洁主题
+- Cloudflare Pages - 免费托管
 
 ## 下一步计划
 
