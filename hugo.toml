@@ -1,0 +1,40 @@
+baseURL = 'https://blog.wjjblog.ccwu.cc/'
+languageCode = 'zh-CN'
+title = 'WJJ Blog'
+theme = 'PaperMod'
+
+[params]
+  author = 'WJJ'
+  description = 'Data Science & Development'
+  defaultTheme = 'dark'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = true
+
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/wnzmb'
+
+[menu]
+  [[menu.main]]
+    identifier = 'posts'
+    name = '文章'
+    url = '/posts/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'tags'
+    name = '标签'
+    url = '/tags/'
+    weight = 20
+  [[menu.main]]
+    identifier = 'archives'
+    name = '归档'
+    url = '/archives/'
+    weight = 30
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
