@@ -14,6 +14,26 @@ theme = 'PaperMod'
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
 
+  [params.assets]
+    favicon = "/favicon.svg"
+
+  [params.giscus]
+    repo = "wnzmb/wjj-blog"
+    repoID = "R_kgDOTHEU5w"
+    category = "Announcements"
+    categoryID = "DIC_kwDOTHEU584DAFCT"
+    mapping = "pathname"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "bottom"
+    theme = "dark"
+    lang = "zh-CN"
+
+  [params.editPost]
+    URL = "https://github.com/wnzmb/wjj-blog/edit/main/"
+    Text = "在 GitHub 上编辑此页"
+    appendFilePath = true
+
   [[params.socialIcons]]
     name = 'github'
     url = 'https://github.com/wnzmb'
@@ -42,3 +62,8 @@ theme = 'PaperMod'
 
 [outputs]
   home = ['HTML', 'RSS', 'JSON']
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
