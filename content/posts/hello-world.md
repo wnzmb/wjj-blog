@@ -3,6 +3,7 @@ date = '2026-06-28T05:49:43+08:00'
 draft = false
 title = 'Hello World'
 tags = ['博客', '开始']
+comments = true
 +++
 
 这是我的第一篇博客文章。
